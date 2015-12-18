@@ -1,7 +1,7 @@
 {
   "name": "language-noon",
   "version": "0.1.0",
-  "description": "noon plugin for Atom",
+  "description": "noon syntax highlighting for atom",
   "engines": {
     "atom": "*",
     "node": "*"
