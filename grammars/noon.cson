@@ -6,8 +6,8 @@
 'patterns': [
     'match': '^\\s*(\\.)\\s*$'
     'captures':
-      '0':
-        'name': 'punctuation.definition.entity.noon'
+        '0':
+            'name': 'punctuation.definition.entity.noon'
 ,
     'match': '^\\s*((\\S|\\s(?!\\s))+)'
     'captures':
