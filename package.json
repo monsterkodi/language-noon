@@ -1,6 +1,6 @@
 {
   "name": "language-noon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "noon syntax highlighting for atom",
   "engines": {
     "atom": "*",
@@ -15,6 +15,5 @@
   "bugs": {
     "url": "https://github.com/monsterkodi/language-noon/issues"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
