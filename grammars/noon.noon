@@ -7,16 +7,44 @@ patterns
             .
                 match       ^\s*(\.)\s*$
                 captures    
-                    0   
-                        name    punctuation.definition.entity.noon
+                    1   
+                        name    punctuation.array.noon
             .
                 match       ^\s*((\S|\s(?!\s))+)
                 captures    
-                    0   
-                        name    entity.attribute-name.key.noon
+                    1   
+                        name    entity.key.noon
             .
-                match   \b([1-9]+[0-9]*|0)\b
-                name    constant.numeric.integer.decimal.noon
+                match       \s+(\.+)\s+(\S+)
+                captures    
+                    1   
+                        name    punctuation.dense.noon
+                    2   
+                        name    key.dense.noon
+            .
+                match   (#[0-9a-f][0-9a-f][0-9a-f]([0-9a-f][0-9a-f][0-9a-f])?)
+                name    constant.color.noon
+            .
+                match   \b([1-9]+[0-9]*|0)(\b|$)
+                name    constant.integer.noon
             .
                 match   \b(true|false|null)\b
                 name    constant.language.noon
+            .
+                match   ([\[\]\{\}\(\)\|])
+                name    punctuation.bracket.noon
+            .
+                match   ([\.\/]+)
+                captures    
+                    1   
+                        name    punctuation.dot.noon
+            .
+                match   ([\-\\])
+                captures    
+                    1   
+                        name    punctuation.dim.noon
+            .
+                match   ((\s[\^])|[\$])
+                captures    
+                    1   
+                        name    punctuation.regex.noon
