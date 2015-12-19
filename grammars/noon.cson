@@ -1,22 +1,27 @@
-'scopeName': 'source.noon'
-'name': 'noon'
-'fileTypes': [
-  'noon'
+scopeName: "source.noon"
+name: "noon2"
+fileTypes: [
+    "noon"
 ]
-'patterns': [
-    'match': '^\\s*(\\.)\\s*$'
-    'captures':
-        '0':
-            'name': 'punctuation.definition.entity.noon'
-,
-    'match': '^\\s*((\\S|\\s(?!\\s))+)'
-    'captures':
-        '0':
-            'name': 'entity.pseudo-class.attribute-name.key.noon'
-,            
-    'match': '\\b([1-9]+[0-9]*|0)\\b'
-    'name': 'constant.numeric.integer.decimal.noon'
-,
-    'match': '\\b(true|false|null)\\b'
-    'name': 'constant.language.noon'    
+patterns: [
+    {
+        match: "^\\s*(\\.)\\s*$"
+        captures:
+            "0":
+                name: "punctuation.definition.entity.noon"
+    }
+    {
+        match: "^\\s*((\\S|\\s(?!\\s))+)"
+        captures:
+            "0":
+                name: "entity.attribute-name.key.noon"
+    }
+    {
+        match: "\\b([1-9]+[0-9]*|0)\\b"
+        name: "constant.numeric.integer.decimal.noon"
+    }
+    {
+        match: "\\b(true|false|null)\\b"
+        name: "constant.language.noon"
+    }
 ]

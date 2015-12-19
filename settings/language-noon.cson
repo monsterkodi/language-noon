@@ -1,5 +1,5 @@
-'.source.noon':
-  'editor':
-    'autoIndentOnPaste': false
-    'foldEndPattern': '^\\s*$'
-    'tabType': 'soft'
+".source.noon":
+    editor:
+        autoIndentOnPaste: false
+        foldEndPattern: "^\\s*$"
+        tabType: "soft"

@@ -1,0 +1,6 @@
+
+.source.noon    
+                editor  
+                    autoIndentOnPaste   false
+                    foldEndPattern      ^\s*$
+                    tabType             soft
