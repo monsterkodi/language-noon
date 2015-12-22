@@ -11,6 +11,24 @@ patterns: [
                 name: "punctuation.array.noon"
     }
     {
+        match: "^\\s*([\\|])([^\\|]*)([\\|])"
+        captures:
+            "1":
+                name: "punctuation.key.escape.noon"
+            "2":
+                name: "entity.key.noon"
+            "3":
+                name: "punctuation.key.escape.noon"
+    }
+    {
+        match: "^\\s*([\\|])([^\\|]*)$"
+        captures:
+            "1":
+                name: "punctuation.key.escape.noon"
+            "2":
+                name: "entity.key.noon"
+    }
+    {
         match: "^\\s*((\\S|\\s(?!\\s))+)"
         captures:
             "1":
@@ -25,6 +43,26 @@ patterns: [
                 name: "key.dense.noon"
     }
     {
+        match: "(\\|)(.+)(\\|)"
+        captures:
+            "1":
+                name: "punctuation.value.escape.noon"
+            "3":
+                name: "punctuation.value.escape.noon"
+    }
+    {
+        match: "(\\|\\|)"
+        captures:
+            "1":
+                name: "punctuation.value.escape.noon"
+    }
+    {
+        match: "(\\|)(.+)"
+        captures:
+            "1":
+                name: "punctuation.value.escape.noon"
+    }
+    {
         match: "(#[0-9a-f][0-9a-f][0-9a-f]([0-9a-f][0-9a-f][0-9a-f])?)"
         name: "constant.color.noon"
     }
@@ -37,7 +75,7 @@ patterns: [
         name: "constant.language.noon"
     }
     {
-        match: "([\\[\\]\\{\\}\\(\\)\\|])"
+        match: "([\\[\\]\\{\\}\\(\\)])"
         name: "punctuation.bracket.noon"
     }
     {
