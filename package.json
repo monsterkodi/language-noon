@@ -1,6 +1,6 @@
 {
   "name": "language-noon",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "noon syntax highlighting for atom",
   "engines": {
     "atom": "*",
