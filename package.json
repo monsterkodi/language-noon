@@ -14,14 +14,5 @@
   "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/monsterkodi/language-noon/issues"
-  },
-  "devDependencies": {
-    "coffee-script": "^1.10.0",
-    "del": "^2.2.0",
-    "gulp": "^3.9.0",
-    "gulp-bump": "^1.0.0",
-    "gulp-load-plugins": "^1.1.0",
-    "sds": ">=1.4.4"
-  },
-  "dependencies": {}
+  }
 }

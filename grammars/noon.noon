@@ -6,7 +6,7 @@ patterns
             .
                 match       ^\s*(\.)\s*$
                 captures    
-                    1   
+                    1  
                         name    punctuation.array.noon
             .
                 match       ^\s*([\|])([^\|]*)([\|])
