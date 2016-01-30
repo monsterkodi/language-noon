@@ -5,6 +5,14 @@ fileTypes: [
 ]
 patterns: [
     {
+        match: "^\\s*(#)(.*)$"
+        captures:
+            "1":
+                name: "punctuation.comment.noon"
+            "2":
+                name: "comment.noon"
+    }
+    {
         match: "^\\s*(\\.)\\s*$"
         captures:
             "1":
