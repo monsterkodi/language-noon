@@ -1,5 +1,6 @@
 ".source.noon":
-    editor:
-        autoIndentOnPaste: false
-        foldEndPattern: "^\\s*$"
-        tabType: "soft"
+  editor:
+    autoIndentOnPaste: false
+    foldEndPattern: "^\\s*$"
+    tabType: "soft"
+    commentStart: "# "
